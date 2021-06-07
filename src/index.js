@@ -3,9 +3,7 @@
 const express = require('express')
 // requiring the mongoose file makes sure that mongoose runs and that mongoose connects to the database
 require('./db/mongoose')
-// load in our models
-const User = require('./models/user')
-const Task = require('./models/task')
+
 // load in our routers
 const userRouter = require('./routers/user')
 const taskRouter = require('./routers/task')
